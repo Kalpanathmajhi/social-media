@@ -16,5 +16,4 @@ const CreateButton = () => {
     </Link>
   );
 };
-
 export default CreateButton;

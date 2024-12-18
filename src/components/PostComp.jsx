@@ -29,17 +29,7 @@ const PostComp = ({ post }) => {
           pagination={{
             clickable: true,
           }}
-          // breakpoints={{
-          //   560: {
-          //     slidesPerView: 1.5,
-          //   },
-          //   700: {
-          //     slidesPerView: 2,
-          //   },
-          //   1040: {
-          //     slidesPerView: 1,
-          //   },
-          // }}
+
           slidesPerView={post?.post_url.length > 1 ? 1.5 : 1}
           slidesPerGroup={1}
           modules={[Pagination]}
